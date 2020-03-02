@@ -1,0 +1,366 @@
+@import "fonts/Montserrat/stylesheet.css";
+@font-face {
+  font-family: Roboto;
+  src: url("fonts/roboto.ttf");
+}
+html body {
+  background: #FCFCFC;
+}
+html body header {
+  background: white;
+}
+html body header .full-screen {
+  height: 100vh;
+  width: auto;
+  box-shadow: 0px 0px 40px rgba(34, 34, 34, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+html body header .full-screen .navigation {
+  height: 60px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+html body header .full-screen .navigation .navbar {
+  padding: 0 15px;
+}
+html body header .full-screen .navigation .navbar .navbar-brand {
+  margin: 0;
+}
+html body header .full-screen .navigation .navbar .navbar-brand .logo-link {
+  display: block;
+}
+html body header .full-screen .navigation .navbar #navbarNav {
+  margin-left: 20px;
+  padding-top: 5px;
+}
+html body header .full-screen .navigation .navbar #navbarNav .navbar-nav .nav-item {
+  opacity: 0.6;
+  color: black;
+  margin-right: 20px;
+  padding: 0 10px 18px 10px;
+}
+html body header .full-screen .navigation .navbar #navbarNav .navbar-nav .nav-item a {
+  padding: 0;
+}
+html body header .full-screen .navigation .navbar #navbarNav .navbar-nav .active {
+  opacity: 1;
+  border-bottom: 2px solid black;
+}
+html body header .full-screen .navigation .navbar #navbarNav .contact-us {
+  text-align: right;
+  margin: 0 15px 20px auto;
+}
+html body header .full-screen .navigation .navbar #navbarNav .contact-us img {
+  margin-left: 10px;
+}
+html body header .full-screen .navigation .navbar #navbarNav .contact-us :hover {
+  cursor: pointer;
+}
+html body header .full-screen .header-content {
+  line-height: 150%;
+  height: calc(100% - 60px);
+}
+html body header .full-screen .header-content .container {
+  height: 100%;
+}
+html body header .full-screen .header-content .container .row {
+  height: 100%;
+}
+html body header .full-screen .header-content .container .row h2 {
+  margin-bottom: 10px;
+  font-family: Montserrat;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+html body main .main-content ::-webkit-scrollbar {
+  display: none;
+  width: 0;
+}
+html body main .main-content .robot-panel .content {
+  background: white;
+  border: 1px solid rgba(34, 34, 34, 0.15);
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+html body main .main-content .robot-panel .content .text h3 {
+  font-family: Montserrat;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+}
+html body main .main-content .robot-panel .content .text h3 span {
+  color: #DD2E44;
+}
+html body main .main-content .list .item {
+  background: #FFFFFF;
+  border: 1px solid rgba(34, 34, 34, 0.15);
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+html body main .main-content .list .item .item-text .title {
+  font-family: Montserrat;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+}
+html body footer {
+  background: linear-gradient(261.63deg, #494949 0%, #000000 100%);
+  box-shadow: 0 0 40px rgba(34, 34, 34, 0.1);
+}
+html body footer .footer-content {
+  height: 200px;
+}
+html body footer .footer-content .balloon {
+  position: relative;
+}
+html body footer .footer-content .text {
+  margin-bottom: 30px;
+  color: #FFFFFF;
+  opacity: 0.6;
+}
+@media (min-width: 1200px) {
+  html body {
+    font: 16px/19px Roboto;
+  }
+  html body header .navigation {
+    padding-top: 16px;
+  }
+  html body header .navigation .navbar-brand {
+    padding: 0 0 14px 0;
+  }
+  html body header .header-content {
+    overflow: hidden;
+    padding: 90px 0 120px;
+  }
+  html body header .header-content .row .alien {
+    order: 1;
+  }
+  html body header .header-content .row .alien img {
+    margin-left: -250px;
+    height: 100%;
+  }
+  html body header .header-content .row .left-column {
+    order: 2;
+    height: calc(100% - 264px - 10px);
+  }
+  html body header .header-content .row .left-column .description {
+    line-height: 24px;
+    height: calc(100% - 70px);
+    display: flex;
+  }
+  html body header .header-content .row .left-column .bottom-panel {
+    display: flex;
+  }
+  html body header .header-content .row .left-column .bottom-panel .app-store {
+    margin-right: 68px;
+  }
+  html body header .header-content .row .left-column .bottom-panel .scroll {
+    opacity: 0.6;
+    display: flex;
+    align-items: center;
+  }
+  html body header .header-content .row .left-column .bottom-panel .scroll .scroll-text {
+    margin-right: 22px;
+  }
+  html body header .header-content .row h2 {
+    font-size: 80px;
+    line-height: 88px;
+  }
+  html body main {
+    height: 650px;
+    overflow: hidden;
+  }
+  html body main .robot-panel {
+    padding: 40px 25px 40px 15px;
+  }
+  html body main .robot-panel .content {
+    display: flex;
+    padding: 150px 25px;
+  }
+  html body main .robot-panel .content .robot-img {
+    margin-right: 20px;
+  }
+  html body main .robot-panel .content .text {
+    padding-top: 50px;
+  }
+  html body main .robot-panel .content .text .description {
+    line-height: 24px;
+  }
+  html body main .robot-panel .content .text h3 {
+    padding-bottom: 20px;
+    font-size: 34px;
+    line-height: 41px;
+  }
+  html body main .list {
+    max-height: 650px;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+  html body main .list .item {
+    display: flex;
+    margin-bottom: 2px;
+    padding: 30px 15px;
+  }
+  html body main .list .item .item-img {
+    margin-right: 15px;
+  }
+  html body main .list .item .item-text {
+    padding-top: 5px;
+  }
+  html body main .list .item .item-text .title {
+    font-size: 24px;
+    line-height: 29px;
+  }
+  html body main .list .item .item-text .description {
+    line-height: 24px;
+  }
+  html body footer .footer-content .penny-lg {
+    width: 282px;
+    margin: 0 40px 0 15px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+  }
+  html body footer .footer-content .penny-lg img {
+    margin-top: -40px;
+    padding-left: 40px;
+  }
+  html body footer .footer-content .penny-xs {
+    display: none;
+  }
+  html body footer .footer-content .balloon {
+    bottom: 20px;
+  }
+  html body footer .footer-content .text {
+    margin-top: auto;
+  }
+}
+@media (max-width: 480px) {
+  html body {
+    font: 15px/22px Roboto;
+  }
+  html body header .navigation {
+    padding: 0;
+  }
+  html body header .navigation .navbar-brand {
+    padding: 19px 0 18px;
+  }
+  html body header .navigation .navbar-brand img {
+    width: 90px;
+  }
+  html body header .navigation .navbar-toggler {
+    height: 60px;
+    padding: 0 0 0 20px;
+    border-radius: 0;
+    border-left: 1px solid rgba(0, 0, 0, 0.15);
+    outline: none;
+  }
+  html body header .navigation .collapse {
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+  }
+  html body header .header-content {
+    padding: 30px 0 40px;
+  }
+  html body header .header-content .alien img {
+    float: right;
+    margin-right: 13px;
+    height: 140px;
+  }
+  html body header .header-content .lc {
+    height: calc(100% - 140px);
+  }
+  html body header .header-content .lc .left-column {
+    height: calc(100% - 132px - 10px);
+  }
+  html body header .header-content .lc .left-column .description {
+    height: calc(100% - 70px);
+  }
+  html body header .header-content .lc .left-column .bottom-panel {
+    width: 100%;
+  }
+  html body header .header-content .lc .left-column .bottom-panel .app-store {
+    display: block;
+    background: #222222;
+    border-radius: 3px;
+  }
+  html body header .header-content .lc .left-column .bottom-panel .app-store img {
+    width: 100%;
+    height: 70px;
+  }
+  html body header .header-content .lc .left-column .bottom-panel .scroll {
+    display: none;
+  }
+  html body header .header-content h2 {
+    font-size: 40px;
+    line-height: 44px;
+  }
+  html body main {
+    padding: 20px 0;
+  }
+  html body main .robot-panel {
+    margin-bottom: 20px;
+  }
+  html body main .robot-panel .content {
+    padding: 30px 30px 20px;
+  }
+  html body main .robot-panel .content .robot-img img {
+    margin-bottom: 30px;
+    height: 148px;
+  }
+  html body main .robot-panel .content .text h3 {
+    padding-bottom: 10px;
+    width: 275px;
+    font-size: 24px;
+    line-height: 29px;
+  }
+  html body main .col-list {
+    padding-right: 0;
+  }
+  html body main .col-list .list {
+    display: flex;
+    overflow-x: scroll;
+  }
+  html body main .col-list .list .item {
+    padding: 20px;
+    margin-right: 20px;
+  }
+  html body main .col-list .list .item .item-img img {
+    height: 59px;
+    margin-bottom: 15px;
+  }
+  html body main .col-list .list .item .item-text .title {
+    margin-bottom: 5px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  html body main .col-list .list .item .item-text .description {
+    width: 155px;
+    line-height: 22px;
+  }
+  html body footer .footer-content .penny-lg {
+    display: none;
+  }
+  html body footer .footer-content .penny-xs {
+    width: 158px;
+    height: auto;
+    padding-bottom: 16px;
+    margin-left: 15px;
+    overflow: hidden;
+  }
+  html body footer .footer-content .penny-xs img {
+    margin-top: -40px;
+    margin-left: -20px;
+  }
+  html body footer .footer-content .balloon {
+    bottom: 10px;
+    margin-left: auto;
+    margin-right: 15px;
+  }
+  html body footer .footer-content .balloon img {
+    width: 69px;
+  }
+  html body footer .footer-content .text {
+    margin-left: auto;
+    margin-right: 45px;
+    line-height: 19px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
